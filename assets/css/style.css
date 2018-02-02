@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	font-family: 'Limelight', cursive;
+	font-size: 14px;
+	line-height: 1.5;
+	background-color: black;
+}
+
+.jumbotron {
+	background-image: url("https://media.giphy.com/media/l1J9EQhfkb8tPu836/giphy.gif");
+	background-repeat: repeat-x;
+	background-color: black;
+}
+
+.card {
+	border: 2px solid #DAA520;
+	color: black;
+	text-align: center;
+}
+
+.card-header {
+	border-bottom: 2px solid #DAA520;
+	background-color: #DAA520;
+	text-align: left;
+	font-size: 18px;
+}
+
+.card-body {
+	background-image: url("https://media.giphy.com/media/l1J9EQhfkb8tPu836/giphy.gif");
+	background-repeat: repeat-x;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+#inputCard, #buttonsCard {
+	width: 350px;
+	margin: 30px auto;
+}
+
+#gifsCard {
+	margin: 30px auto;
+}
+
+p {
+	background-color: #DAA520;
+}
+
+
+button {
+	background-color: #DAA520;
+	color: black;
+	margin: 5px;
+}
+

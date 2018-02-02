@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GifTastic</title>
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <img src="https://fontmeme.com/permalink/180202/5082ef6911e3ce1e18ffbb6177b9150d.png" alt="rupauls-drag-race-font" border="0">
+      <img src="https://fontmeme.com/permalink/180202/8e6dee7c6d0fb786e8b99fe802b75fef.png" alt="rupauls-drag-race-font" border="0">
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+      
+      <div class="col-md-4"> 
+        <div class="row">
+          <div id="inputCard" class="card">
+            <div class="card-header">
+              Add Some "T"
+            </div>
+            <div class="card-body text-primary">
+              <input class="form-control" id="userInput" type="text" placeholder="hiieeee!">
+              <button id="submitButton" type="submit" value="Submit" class="btn btn-sm">Submit</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div id="buttonsCard" class="card">
+            <div class="card-header">
+              Click to Spill
+            </div>
+            <div class="card-body text-primary">
+              <div id="buttonsGoHere"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-1"></div>
+      
+      <div class="col-md-7">
+        <div id="gifsCard" class="card">
+            <div class="card-header">
+              Gag on Gifs Dahlin'
+            </div>
+            <div class="card-body text-primary">
+              <div class="card-columns" id="gifsGoHere"></div>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+  
+  </div>
+
+  <nav class="navbar fixed-bottom navbar-light bg-faded"></nav>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
